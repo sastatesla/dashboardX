@@ -1,0 +1,115 @@
+
+
+.Judge-header {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.total-judges-card {
+  background-color: #fff;
+  width: 250px;
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  color: rgb(1, 0, 0);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.total-judges-card p{
+  font-size: 20px;
+  font-weight: bold;
+ 
+}
+
+.JudgesTable{
+  border: 1px solid ;
+  width: 96.5%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 22px;
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2),  4px 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 15px;
+}
+
+
+.judges-table {
+  width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow-y: scroll;
+    height: 80vh;
+}
+
+.judges-table th{
+  padding: 10px;
+  text-align: left;
+  height: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.judges-table td {
+  padding: 10px;
+    text-align: left;
+    height: 30px;
+    
+}
+
+.judges-table th {
+  background-color:#c30fff;
+  color: rgb(255, 255, 255);
+}
+
+.judges-table tr:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.judges-table tr:hover {
+  background-color: #f6f2ff;
+}
+
+.judges-table .judge-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.JbButton {
+  width: 120px;
+  height: 40px;
+  border: #b619ff 2px solid;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: white;
+  margin-top: 5px;
+}
+
+.Judge-Header {
+  height: 60px;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.JHeading {
+  margin: 0;
+ width: 20%;
+  margin-left: 20px;
+}
+
+.Judge-Header {
+  display: flex;
+}
+
+.Judges-button {
+  display: flex;
+  width: 75%;
+  justify-content: flex-end;
+  margin-right: 10px;
+  padding-top: 5px;
+  gap: 10px;
+}

@@ -1,0 +1,141 @@
+DashboardPage.css
+
+.dashboard-page {
+    border-radius: 6px;
+    
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .admin-greeting {
+    margin-bottom: 20px;
+    border-radius: 15px;
+    /* background-color: #d620ff; */
+    margin: 20px;
+    height: 250px;
+    padding-left: 15px;
+    justify-content: flex-end;
+    display: flex;   
+    border: 2px solid #9a0cff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+
+  .Title{
+    width: 50%;
+    height: 100%;
+    margin-top: 6%;
+    font-size: 24px;
+  }
+  
+  .user-info {
+    margin-bottom: 30px;
+  }
+  
+  .overview-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-radius: 36px;
+    gap: 10px;
+    margin: 20px;
+    
+   
+  }
+  
+  .overview-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    flex: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: rgb(0, 0, 0);
+  }
+  
+  
+  
+  .navbar {
+    display: list-item;
+    list-style: none;
+    color: white;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    /* border: 2px solid green; */
+    border-radius: 15px;
+   
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 5px;
+     
+  }
+  
+  .navbar-links a {
+    color: rgb(12, 11, 11);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+  }
+  
+  .icon {
+    margin-right: 5px;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 15px;  
+  }
+  
+  .navbar-links a:hover {
+    color: lightblue;
+  }
+  
+  .icons{
+   height: 50px;
+   width: 50px;
+   background-color:  #9a0cff;
+   border-radius: 50%;
+   box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.1);
+   justify-content: center;
+   border: 2px;
+  }
+
+  .Landing-Image{
+    height: 80%;
+  }
+  .LImg{
+    width: 300px;
+  }
+
+  .DashIcon{
+    width: 40px;
+    color: white;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 5px;
+    padding-top: 12px;
+    padding-left: 15px;
+    background-color:  #9a0cff;
+  }
+
+  .DashDiv{
+    display: flex;
+    gap: 20px;
+    /* border: 2px solid; */
+  }
+.Dash-RegData p{
+  font-size:25px;
+  font-weight: bold;
+  /* border: 2px solid; */
+  margin: 0px;
+}
+.Dash-RegData {
+  font-size:25px;
+  font-weight: bold;
+  /* border: 2px solid; */
+  margin-left: 10px;
+  
+}
+

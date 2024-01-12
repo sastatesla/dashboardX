@@ -1,0 +1,84 @@
+.Results-page {
+    padding: 20px;
+    width: 97%;
+  }
+  
+  .results-cards {
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+  }
+  
+  .result-card {
+    flex: 1;
+    border: 1px solid #b619ff;
+    padding: 20px;
+    width: calc(25% - 20px);
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 22.5vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  }
+
+  .result-card.selected {
+    border-color: rgb(132, 39, 255);
+    background-color: rgba(132, 39, 255, 0.1);
+  }
+  
+  .winner-icons {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .round-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:  #b619ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 5px;
+  }
+  
+
+  .Results-button{
+    display: flex;
+    width: 75%;
+    /* border: 2px solid ; */
+    justify-content: end;
+    padding-top: 8px;
+    gap: 10px;
+    padding-right: 20px;
+  }
+
+.RbButton{
+  width: 120px;
+  height: 40px;
+  border: #b619ff 2px solid;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: white;
+  margin-top: 5px;
+}
+
+.Results-Header{
+  display: flex;
+  height: 70px;
+  width: 100%;
+  /* border: 2px solid rgb(183, 29, 255); */
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.RHeading{
+  width: 25%;
+  padding-left: 20px;
+}

@@ -1,0 +1,141 @@
+* {
+  border-radius: 0px;
+}
+
+.total-participants-card {
+  background-color: #fff;
+  width: 250px;
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  color: rgb(1, 0, 0);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.page-header h2 {
+  padding-right: 40%;
+}
+
+.total-participants-card p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.participants-table {
+  width: 100%;
+  border-radius: 10px;
+  overflow-y: scroll;
+  height: 80vh;
+}
+
+.participants-table-header {
+  display: flex;
+  background-color: hsl(274, 98%, 65%);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin-top: 12px;
+}
+.Parti-Table{
+  border: 1px solid ;
+  width: 96.5%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-left: 22px;
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2),  4px 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 15px;
+
+}
+
+.participants-table-row {
+  margin-top: 5px;
+  text-align: center;
+  display: flex;
+  padding-top: 10px;
+  background-color: #ffffff;
+  color: rgb(9, 0, 0);
+  font-weight: bold;
+  height: 50px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+}
+
+.participants-table-cell {
+  padding: 10px;
+  flex: 1;
+  text-align: center;
+}
+
+.select {
+  flex: 0.5;
+}
+
+.table-body {
+  background-color: #fff;
+  color: #333;
+}
+
+.participants-table-row:hover {
+  background-color: #e6e6e6;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.PbButton {
+  width: 120px;
+  height: 40px;
+  border: #b619ff 2px solid;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: white;
+  margin-top: 5px;
+}
+
+.Ptable-selector{
+  width: 120px;
+  height: 40px;
+  border: #b619ff 2px solid;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: white;
+  margin-top: 12px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.page-content-buttons {
+  display: flex;
+  width: 58%;
+  justify-content: flex-end;
+  margin-left: 120px;
+  padding-top: 4px;
+  gap: 10px;
+}
+.P-Header{
+  display: flex;
+  height: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.PHeading{
+    margin: 0px;
+    margin-left: 70px;
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Style the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #bbbaba;
+  border-radius: 5px;
+}
+
+/* Style the scrollbar track (the background) */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}

@@ -1,0 +1,24 @@
+/* AdminMenu.css */
+.Reactapp {
+    display: flex;
+    flex-direction: row; /* Display AdminMenu and main-container side by side */
+    height: 100vh;
+    overflow: hidden;
+    text-decoration: none;
+  }
+  
+  .main-container{
+    margin-left: 15%;
+  }
+  
+  .main-content{
+    margin-left: 50px; /* Adjust the same width as AdminMenu */
+    padding: 10px;
+    overflow-y: auto;
+    height: 100vh;
+    width: 175vh;
+    text-decoration: none;
+  }
+  
+  
+  

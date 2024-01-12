@@ -1,0 +1,96 @@
+/* SignUp.css */
+
+/* Whole page background */
+.signup-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 70vw;
+    background-color: #ffffff;
+    /* border:2px solid ; */
+    margin-left: 7%;
+    margin-top: 2%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+
+  }
+  
+  /* Left section containing logo and information */
+  .left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    padding: 20px;
+    background-color: #fff;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+
+  
+  
+  .left-section .logo img {
+    max-width: 100%;
+    height: auto;
+    /* border: 2px solid; */
+  }
+  
+  .left-section h2 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .left-section p {
+    font-size: 16px;
+    color: #888;
+  }
+  
+  /* Right section containing the form */
+  .right-section {
+    width: 40%;
+    padding: 20px;
+    background-color: #fff;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    border-radius: 5px;
+  }
+  
+  .right-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .right-section .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .right-section label {
+    font-weight: bold;
+  }
+  
+  .right-section input[type="text"],
+  .right-section input[type="email"],
+  .right-section input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .right-section button[type="submit"] {
+    background-color: rgb(150, 0, 250);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .right-section button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  
